@@ -13,7 +13,7 @@ English CV covering computer vision, multi-object tracking, robotics, and contro
 | `main.tex` | Layout, packages, and page structure |
 | `sections/profile.tex` | Education, research experience, master's thesis, and manuscripts in preparation |
 | `sections/robotics.tex` | Robotics/control projects and earlier engineering experience |
-| `sections/portfolio.tex` | Additional research/software projects, skills, and awards |
+| `sections/portfolio.tex` | Additional tracking research, coursework, skills, and awards |
 
 ## Build on Overleaf
 
