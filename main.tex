@@ -1,7 +1,7 @@
 % Adapted from Jake's Resume by Jake Gutierrez (MIT License).
 % https://github.com/jakegut/resume ; based on https://github.com/sb2nov/resume
 % Template license retained in LICENSE.txt. Personal content: Tran The Duong.
-% Edit the three files in sections/; compile main.tex with pdfLaTeX on Overleaf.
+% Compile main.tex with pdfLaTeX on Overleaf. Edit content in sections/.
 \documentclass[a4paper,11pt]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -21,17 +21,18 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 \setlength{\footskip}{20pt}
-\titleformat{\section}{\scshape\large\raggedright}{}{0em}{}[\titlerule]
+\titleformat{\section}{\bfseries\large\raggedright}{}{0em}{}[\titlerule]
 \titlespacing*{\section}{0pt}{10pt}{5pt}
-\newcommand{\project}[3]{\par\vspace{7pt}\textbf{#1}\par\vspace{1pt}{\small\textit{#2}\hfill #3}\par}
-\newcommand{\cvItemsStart}{\begin{itemize}[leftmargin=13pt,itemsep=2pt,topsep=4pt,parsep=0pt]}
+\newcommand{\project}[3]{\par\addvspace{6pt}\textbf{#1}\par\vspace{1pt}{\small\textit{#2}\hfill #3}\par}
+\newcommand{\subproject}[1]{\par\addvspace{5pt}\textbf{#1}\par}
+\newcommand{\cvItemsStart}{\begin{itemize}[leftmargin=13pt,itemsep=2pt,topsep=3pt,parsep=0pt]}
 \newcommand{\cvItemsEnd}{\end{itemize}\vspace{-2pt}}
 \hypersetup{pdftitle={Tran The Duong - Curriculum Vitae},pdfauthor={Tran The Duong}}
 \begin{document}
-\small
+\fontsize{10.5}{12.4}\selectfont
 \input{sections/profile}
+\input{sections/research}
 \newpage
 \input{sections/robotics}
-\newpage
 \input{sections/portfolio}
 \end{document}

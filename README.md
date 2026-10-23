@@ -1,6 +1,6 @@
-# Tran The Duong — Curriculum Vitae
+# Tran The Duong - Curriculum Vitae
 
-English CV covering computer vision, multi-object tracking, robotics, and control.
+Two-page English CV covering computer vision, multi-object tracking, robotics, and control.
 
 - [View / download the CV](Tran_The_Duong_CV.pdf)
 - [Download the LaTeX project for Overleaf](Tran_The_Duong_CV_LaTeX.zip)
@@ -10,16 +10,19 @@ English CV covering computer vision, multi-object tracking, robotics, and contro
 
 | File | Contents |
 | --- | --- |
-| `main.tex` | Layout, packages, and page structure |
-| `sections/profile.tex` | Education, research experience, master's thesis, and manuscripts in preparation |
+| `main.tex` | Typography, spacing, and two-page structure |
+| `sections/profile.tex` | Contact information, education, and technical skills |
+| `sections/research.tex` | KAIST research, thesis results, and manuscripts in preparation |
 | `sections/robotics.tex` | Robotics/control projects and earlier engineering experience |
-| `sections/portfolio.tex` | Additional tracking research, coursework, skills, and awards |
+| `sections/portfolio.tex` | Additional programming projects and awards |
+
+Manuscripts are labeled as in preparation for planned CVPR 2027 submission, with brief descriptions.
 
 ## Build on Overleaf
 
 1. Download `Tran_The_Duong_CV_LaTeX.zip`.
-2. In Overleaf, choose **New Project → Upload Project**.
-3. Select `main.tex` as the main document and **pdfLaTeX** as the compiler.
+2. Choose **New Project > Upload Project**.
+3. Set `main.tex` as the main document and **pdfLaTeX** as the compiler.
 4. Edit the relevant section and recompile.
 
 ## Build locally
@@ -32,6 +35,8 @@ latexmk -pdf -interaction=nonstopmode -halt-on-error -jobname=Tran_The_Duong_CV 
 
 Commit the updated source and PDF together after rebuilding.
 
-## Template credits
+## Credits and guidance
 
 Adapted from [Jake's Resume](https://github.com/jakegut/resume) by Jake Gutierrez, based on [sb2nov/resume](https://github.com/sb2nov/resume). The template's MIT license is retained in `LICENSE.txt`. Personal CV content belongs to Tran The Duong.
+
+Editorial guidance: [Harvard resume guide](https://careerservices.fas.harvard.edu/resources/create-a-strong-resume/), [MIT accomplishment statements](https://capd.mit.edu/resources/resumes-writing-about-your-skills/), and [MIT CV guidance](https://capd.mit.edu/resources/cvs/). This is a personal LaTeX adaptation, not an official university template.
