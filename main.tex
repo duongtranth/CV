@@ -1,0 +1,37 @@
+% Adapted from Jake's Resume by Jake Gutierrez (MIT License).
+% https://github.com/jakegut/resume ; based on https://github.com/sb2nov/resume
+% Template license retained in LICENSE.txt. Personal content: Tran The Duong.
+% Edit the three files in sections/; compile main.tex with pdfLaTeX on Overleaf.
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.65in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{lmodern}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+\pagestyle{plain}
+\urlstyle{same}
+\raggedright
+\raggedbottom
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\footskip}{20pt}
+\titleformat{\section}{\scshape\large\raggedright}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+\newcommand{\project}[3]{\par\vspace{7pt}\textbf{#1}\par\vspace{1pt}{\small\textit{#2}\hfill #3}\par}
+\newcommand{\cvItemsStart}{\begin{itemize}[leftmargin=13pt,itemsep=2pt,topsep=4pt,parsep=0pt]}
+\newcommand{\cvItemsEnd}{\end{itemize}\vspace{-2pt}}
+\hypersetup{pdftitle={Tran The Duong - Curriculum Vitae},pdfauthor={Tran The Duong}}
+\begin{document}
+\small
+\input{sections/profile}
+\newpage
+\input{sections/robotics}
+\newpage
+\input{sections/portfolio}
+\end{document}
