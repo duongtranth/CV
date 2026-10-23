@@ -5,9 +5,9 @@
 \subproject{BeliefCO \enspace{\normalfont\small\textit{Master's thesis, ongoing}}}
 \textit{End-to-End Transformer-Based Multi-Object Tracking for Drone and Bird Surveillance}
 \cvItemsStart
-\item Built a probabilistic belief into the CO-MOT tracker: per-track Gaussian motion hypotheses and existence probabilities drive a Poisson multi-Bernoulli association solved by in-network belief propagation.
+\item Built a belief into the CO-MOT tracker: per-track Gaussian motion hypotheses and existence probabilities drive a Poisson multi-Bernoulli association solved by in-network belief propagation.
 \item Added track dropout, camera-motion compensation, and a query-embedding appearance likelihood.
-\item Created WOSDETC tracking annotations (birds and drones, CVAT) and recording-level splits; evaluated on four aerial benchmarks with every baseline on the same detector.
+\item Created WOSDETC tracking annotations (birds and drones, CVAT) and recording-level splits; evaluated on BFT, WOSDETC, BSB, and SMOT4SB with every baseline on the same detector.
 \item Achieved test HOTA of \textbf{72.32 on BFT}, \textbf{62.91 on WOSDETC}, and \textbf{65.77 on BSB}, against 69.72, 59.44, and 63.81 for the strongest baselines, and the highest IDF1 on all four test benchmarks.
 \cvItemsEnd
 \subproject{Spatio-Temporal Association Learning (STAL) \enspace{\normalfont\small\textit{Python, PyTorch}}}
@@ -17,5 +17,5 @@
 \cvItemsEnd
 \subproject{Identity Memory for Tracking-by-Detection \enspace{\normalfont\small\textit{Python, PyTorch}}}
 \cvItemsStart
-\item Developed an online identity memory that plugs into SORT-style trackers and corrects their identity decisions; integrated it into seven trackers, from ByteTrack to TrackTrack, and evaluated on DanceTrack, SportsMOT, MOT17, and PersonPath22.
+\item Developed an online identity memory that plugs into SORT-style trackers and corrects their identity decisions; integrated it into seven trackers, from ByteTrack to TrackTrack, and evaluated on DanceTrack, SportsMOT, MOT17, and PersonPath22 with Optuna-tuned settings.
 \cvItemsEnd
