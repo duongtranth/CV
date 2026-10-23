@@ -14,9 +14,8 @@ Two-page English CV covering computer vision, multi-object tracking, robotics, a
 | `sections/profile.tex` | Contact information and education |
 | `sections/research.tex` | KAIST tracking research and thesis results |
 | `sections/robotics.tex` | KAIST robotics and control projects |
-| `sections/portfolio.tex` | Earlier experience, skills, manuscripts, scholarships, and programming projects |
+| `sections/portfolio.tex` | Earlier experience, skills, scholarships, and programming projects |
 
-Manuscripts are labeled as in preparation for planned CVPR 2027 submission, with brief descriptions.
 
 ## Build on Overleaf
 
@@ -43,6 +42,6 @@ Editorial guidance: [Harvard resume guide](https://careerservices.fas.harvard.ed
 
 ## Reading order
 
-Page 1 presents education, current tracking research, and robotics/control projects. Page 2 contains supporting experience, technical skills, manuscripts in preparation, scholarships, and additional coursework.
+Page 1 presents education, current tracking research, and robotics/control projects. Page 2 contains supporting experience, technical skills, scholarships, and additional coursework.
 
 The editorial revision also uses [MIT EECS Communication Lab guidance](https://mitcommlab.mit.edu/eecs/commkit/cvresume/) on concrete contributions and scan-friendly organization, and [Harvard's engineering example](https://careerservices.fas.harvard.edu/resources/harvard-college-resume-example-engineering/).
