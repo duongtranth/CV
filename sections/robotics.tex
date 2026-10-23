@@ -1,12 +1,13 @@
-% KAIST ROBOTICS/CONTROL PHASE, SEP. 2024--OCT. 2025; USER-CONFIRMED DATES.
+% KAIST ROBOTICS/CONTROL PROJECTS. Bipedal dates user-confirmed; RS-JiLQG = EE899, Fall 2025 (repo Oct.--Nov. 2025).
+% Both GitHub repos are private, so no links. Report figures (35%/48% fewer falls) are not backed by repo outputs: do not use.
 \section{Robotics and Control Projects}
 \project{Wheeled-Bipedal Robot Modeling and Control}{KAIST \enspace$\vert$\enspace MATLAB/Simulink, CasADi, C++, Gazebo}{Sep.\ 2024 -- Oct.\ 2025}
 \cvItemsStart
-\item Modeled the robot as a wheeled inverted pendulum and formulated a control-Lyapunov-function MPC in CasADi for velocity tracking under state and torque limits.
-\item Built a C++ interface between Gazebo and Simulink to exchange joint states, IMU measurements, and torque commands for controller development in simulation.
+\item Modeled the robot as a wheeled inverted pendulum and formulated a control-Lyapunov-function MPC in CasADi for velocity tracking under state and torque limits, with polynomial reference trajectories.
+\item Wrote a C++ Gazebo plugin with Protocol Buffers messages that exchanges joint states, IMU data, and torque commands with Simulink for co-simulation.
 \cvItemsEnd
-\project{Risk-Sensitive Stochastic Control (RS-JiLQG)}{KAIST graduate course project \enspace$\vert$\enspace Python, NumPy}{Sep.\ 2024 -- Oct.\ 2025}
+\project{Risk-Sensitive Stochastic Control (RS-JiLQG)}{KAIST graduate course project (EE899), with a classmate \enspace$\vert$\enspace Python, NumPy}{Fall 2025}
 \cvItemsStart
-\item Co-developed a risk-sensitive iterative LQG formulation to control nonlinear systems under Gaussian noise and sudden wheel-slip disturbances.
-\item Implemented the solver and evaluated risk settings through Monte Carlo simulations of a wheeled inverted pendulum, comparing mean and entropic costs.
+\item Derived a risk-sensitive iterative LQG for nonlinear jump-diffusion systems: an entropic-risk objective with Bernoulli-approximated slip jumps and a jump-augmented backward pass.
+\item Built a jump-diffusion simulator of a wheeled inverted pendulum with EKF/UKF state estimation; compared mean and entropic costs across risk levels and against iLQG and MPC in Monte Carlo rollouts.
 \cvItemsEnd
