@@ -4,7 +4,6 @@ Two-page English CV covering computer vision, multi-object tracking, robotics, a
 
 - [View / download the CV](Tran_The_Duong_CV.pdf)
 - [Download the LaTeX project for Overleaf](Tran_The_Duong_CV_LaTeX.zip)
-- [Personal website](https://sites.google.com/view/theduongtran/home)
 
 ## Edit the CV
 
@@ -12,7 +11,7 @@ Two-page English CV covering computer vision, multi-object tracking, robotics, a
 | --- | --- |
 | `main.tex` | Typography, spacing, and two-page structure |
 | `sections/profile.tex` | Contact information and education |
-| `sections/research.tex` | KAIST tracking research and thesis results |
+| `sections/research.tex` | CtrlLab, KAIST research and thesis results |
 | `sections/robotics.tex` | KAIST robotics and control projects |
 | `sections/portfolio.tex` | Earlier experience, skills, scholarships, and programming projects |
 
