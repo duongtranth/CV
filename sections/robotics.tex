@@ -1,20 +1,20 @@
-% CONTROL AND ROBOTICS PHASE: DATES PROVIDED BY THE USER.
+% ROBOTICS ENTRIES CHECKED AGAINST SOURCE CODE; DATES PROVIDED BY THE USER.
 \section{Robotics and Control Projects}
-\project{Wheeled-Bipedal Robot Modeling and CLF-MPC Control}{MATLAB/Simulink, CasADi, C++, Gazebo}{Sep.\ 2024 -- Oct.\ 2025}
+\project{\href{https://github.com/duongtranth/Bipedal_robot_2_project}{Wheeled-Bipedal Robot Modeling and Control}}{MATLAB/Simulink, CasADi, C++, Gazebo}{Sep.\ 2024 -- Oct.\ 2025}
 \cvItemsStart
-\item Derived nonlinear wheeled inverted pendulum dynamics and implemented constrained model predictive control with Control Lyapunov Function conditions, actuator limits, and smoothness penalties.
-\item Built a Gazebo--Simulink interface using C++ and Protocol Buffers to exchange joint states, IMU measurements, and torque commands; generated polynomial height trajectories.
+\item Developed a wheeled inverted pendulum model and formulated forward-motion trajectory optimization in CasADi with soft Lyapunov constraints and state/torque limits.
+\item Built a C++ Gazebo--Simulink interface for joint-state and IMU feedback and motor-torque commands to support simulation-based controller development.
 \cvItemsEnd
 
-\project{RS-JiLQG: Risk-Sensitive Control with Slip Jumps}{Graduate stochastic control project \enspace$\vert$\enspace Python, NumPy}{Sep.\ 2024 -- Oct.\ 2025}
+\project{\href{https://github.com/duongtranth/Stochastic-control-term-project}{Risk-Sensitive Stochastic Control (RS-JiLQG)}}{Graduate stochastic control project \enspace$\vert$\enspace Python, NumPy}{Sep.\ 2024 -- Oct.\ 2025}
 \cvItemsStart
-\item Co-developed a risk-sensitive jump iterative Linear Quadratic Gaussian formulation for nonlinear systems with diffusion noise and intermittent slip disturbances.
-\item Implemented a solver with backward policy updates, regularization, and line search; evaluated closed-loop Monte Carlo rollouts against LQR baselines with Kalman-filter state estimation.
+\item Co-developed a jump-aware, risk-sensitive iterative LQG formulation for nonlinear systems subject to Gaussian noise and intermittent wheel slip.
+\item Implemented backward/forward optimization and studied risk-parameter effects in simulated wheeled inverted pendulum rollouts using Monte Carlo mean and entropic costs.
 \cvItemsEnd
 
-\project{PX4 Offboard Control through ROS 2}{Python, rclpy, PX4 message interfaces}{Nov.\ 2024}
+\project{\href{https://github.com/duongtranth/offboard_control}{PX4 Offboard Position Control with ROS 2}}{Python, ROS 2, PX4}{Nov.\ 2024}
 \cvItemsStart
-\item Implemented offboard heartbeats, vehicle commands, and position setpoints, with arming, takeoff, and landing logic plus vehicle-state and command-acknowledgment monitoring.
+\item Developed a ROS~2 node for PX4 offboard position commands, with vehicle-state feedback and command-acknowledgment monitoring.
 \cvItemsEnd
 
 \section{Earlier Engineering and Research Experience}
