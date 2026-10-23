@@ -1,30 +1,16 @@
-% ROBOTICS ENTRIES CHECKED AGAINST SOURCE CODE; DATES PROVIDED BY THE USER.
+% KAIST ROBOTICS/CONTROL PHASE, SEP. 2024--OCT. 2025; USER-CONFIRMED DATES.
 \section{Robotics and Control Projects}
-\project{\href{https://github.com/duongtranth/Bipedal_robot_2_project}{Wheeled-Bipedal Robot Modeling and Control}}{MATLAB/Simulink, CasADi, C++, Gazebo}{Sep.\ 2024 -- Oct.\ 2025}
+\project{\href{https://github.com/duongtranth/Bipedal_robot_2_project}{Wheeled-Bipedal Robot Modeling and Control}}{KAIST \enspace$\vert$\enspace MATLAB/Simulink, CasADi, C++, Gazebo}{Sep.\ 2024 -- Oct.\ 2025}
 \cvItemsStart
-\item Developed a wheeled inverted pendulum model and formulated forward-motion trajectory optimization in CasADi with soft Lyapunov constraints and state/torque limits.
-\item Built a C++ Gazebo--Simulink interface for joint-state and IMU feedback and motor-torque commands to support simulation-based controller development.
+\item Modeled the robot as a wheeled inverted pendulum and formulated velocity-tracking optimization with soft Lyapunov constraints and state and motor-torque limits.
+\item Built a C++ interface between Gazebo and Simulink to exchange joint states, IMU measurements, and torque commands for controller development in simulation.
 \cvItemsEnd
-
-\project{\href{https://github.com/duongtranth/Stochastic-control-term-project}{Risk-Sensitive Stochastic Control (RS-JiLQG)}}{Graduate stochastic control project \enspace$\vert$\enspace Python, NumPy}{Sep.\ 2024 -- Oct.\ 2025}
+\project{\href{https://github.com/duongtranth/Stochastic-control-term-project}{Risk-Sensitive Stochastic Control (RS-JiLQG)}}{KAIST graduate course project \enspace$\vert$\enspace Python, NumPy}{Sep.\ 2024 -- Oct.\ 2025}
 \cvItemsStart
-\item Co-developed a jump-aware, risk-sensitive iterative LQG formulation for nonlinear systems subject to Gaussian noise and intermittent wheel slip.
-\item Implemented backward/forward optimization and studied risk-parameter effects in simulated wheeled inverted pendulum rollouts using Monte Carlo mean and entropic costs.
+\item Co-developed a risk-sensitive iterative LQG formulation to control nonlinear systems under Gaussian noise and sudden wheel-slip disturbances.
+\item Implemented the solver and evaluated risk settings through Monte Carlo simulations of a wheeled inverted pendulum, comparing mean and entropic costs.
 \cvItemsEnd
-
 \project{\href{https://github.com/duongtranth/offboard_control}{PX4 Offboard Position Control with ROS 2}}{Python, ROS 2, PX4}{Nov.\ 2024}
 \cvItemsStart
-\item Developed a ROS~2 node for PX4 offboard position commands, with vehicle-state feedback and command-acknowledgment monitoring.
-\cvItemsEnd
-
-\section{Earlier Engineering and Research Experience}
-\project{Engineering Intern, Viettel Aerospace Institute}{Embedded systems software}{Sep.\ 2023 -- Feb.\ 2024}
-\cvItemsStart
-\item Designed user interfaces for embedded systems; worked with C++, MATLAB, and Simulink.
-\cvItemsEnd
-
-\project{Undergraduate Researcher, HUST}{Reinforcement learning and control}{2022 -- 2024}
-\cvItemsStart
-\item Studied output-feedback adaptive dynamic programming (ADP) and robust integral-of-sign-error reinforcement learning control for a two-wheeled inverted pendulum in the undergraduate thesis.
-\item Investigated ADP-based control for wheeled robots with wheel slip and wind turbines with disturbance observers; designed a PID controller for a resistance furnace.
+\item Implemented a ROS~2 node that sends position commands to PX4 and monitors vehicle state and command acknowledgments.
 \cvItemsEnd

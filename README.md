@@ -11,10 +11,10 @@ Two-page English CV covering computer vision, multi-object tracking, robotics, a
 | File | Contents |
 | --- | --- |
 | `main.tex` | Typography, spacing, and two-page structure |
-| `sections/profile.tex` | Contact information, education, and technical skills |
-| `sections/research.tex` | KAIST research, thesis results, and manuscripts in preparation |
-| `sections/robotics.tex` | Robotics/control projects and earlier engineering experience |
-| `sections/portfolio.tex` | Additional programming projects and awards |
+| `sections/profile.tex` | Contact information and education |
+| `sections/research.tex` | KAIST tracking research and thesis results |
+| `sections/robotics.tex` | KAIST robotics and control projects |
+| `sections/portfolio.tex` | Earlier experience, skills, manuscripts, scholarships, and programming projects |
 
 Manuscripts are labeled as in preparation for planned CVPR 2027 submission, with brief descriptions.
 
@@ -40,3 +40,9 @@ Commit the updated source and PDF together after rebuilding.
 Adapted from [Jake's Resume](https://github.com/jakegut/resume) by Jake Gutierrez, based on [sb2nov/resume](https://github.com/sb2nov/resume). The template's MIT license is retained in `LICENSE.txt`. Personal CV content belongs to Tran The Duong.
 
 Editorial guidance: [Harvard resume guide](https://careerservices.fas.harvard.edu/resources/create-a-strong-resume/), [MIT accomplishment statements](https://capd.mit.edu/resources/resumes-writing-about-your-skills/), and [MIT CV guidance](https://capd.mit.edu/resources/cvs/). This is a personal LaTeX adaptation, not an official university template.
+
+## Reading order
+
+Page 1 presents education, current tracking research, and robotics/control projects. Page 2 contains supporting experience, technical skills, manuscripts in preparation, scholarships, and additional coursework.
+
+The editorial revision also uses [MIT EECS Communication Lab guidance](https://mitcommlab.mit.edu/eecs/commkit/cvresume/) on concrete contributions and scan-friendly organization, and [Harvard's engineering example](https://careerservices.fas.harvard.edu/resources/harvard-college-resume-example-engineering/).
